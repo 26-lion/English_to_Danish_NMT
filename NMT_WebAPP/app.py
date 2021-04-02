@@ -93,4 +93,4 @@ def index():
     return render_template("index.html", answer=answer, warning=warning, warning2=warning2)
 
 if __name__ == "__main__":
-    app.run(port=8080, host="192.168.1.10")
+    app.run()
