@@ -5,3 +5,6 @@ Neural Translation is method of converting sentences of one language to another 
 The directory NMT_WebApp conatins the frontend and backend code required to make a web application and test our solution.Web application can be seen working next. I used Flask web framework of python to test and deploy the application  
 
 ![2021-04-02 19 58 35](https://user-images.githubusercontent.com/56148821/113426123-9cfa1000-93f0-11eb-8771-16c6ace26136.gif)
+
+## Site is LIVE
+Check out the website at: https://english-to-danish-translator.herokuapp.com
