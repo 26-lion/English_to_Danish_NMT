@@ -56,7 +56,7 @@ def encoding(sequence):
     return x
 
 def clean(text):
-    punc = '''!()-[]{};:'"\, <>./?@#$%^&*_~1234567890'''
+    punc = '''!()-[]{};:'"\,<>./?@#$%^&*_~1234567890'''
     for elem in text:
         if elem in punc:
             text = text.replace(elem, "")
