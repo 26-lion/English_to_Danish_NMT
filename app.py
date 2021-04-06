@@ -25,7 +25,7 @@ def Decode_sequence(seq):
     decoded_sentence = ' '
     while not stop_condition:
         output_tokens, h, c = decoder_model.predict([target_seq] + states_value)
-        sampled_token_index = np.argmax(output_tokens[0, 0, :])
+        sampled_token_index = np.argmax(output_tokens[0, -1, :])
         if sampled_token_index == 0:
             break
         else:
